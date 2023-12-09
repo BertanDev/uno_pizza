@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pizzaria Web
 
-## Getting Started
+A aplicação Web criada com React e NextJS será utilizada pelo setor de produção do estabelecimento, para controle dos pedidos criados pelo atendente, e que devem ser preparados.
 
-First, run the development server:
-
-```bash
+## ▶️ Testar o projeto
+Com o projeto em sua máquina, rode na raiz:
+```
+npm install
+```
+em seguida:
+```
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Lembre-se de estar com a api do sistema rodando | [iniciar a api](../server)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 💠 Funcionalidades 
+- Logar e cadastrar um usuário
+- Cadastrar uma nova categoria de produtos
+- Cadastrar um novo produto dentro de uma categoria
+- Ver pedidos a serem preparados
+- Ver detalhes de cada pedido
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🔱 Ferramentas utilizadas
+- React JS com NextJS
+- TypeScript
+- Axios
+- Jwt Decode
+- Nookies
+- React Icons
+- React Modal
+- React Toastify
+- Sass
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Tela de Login
+![login](https://github.com/BertanDev/uno_pizza/assets/72395637/bf5db8ac-28d4-4bce-9873-f07ea821a4c3)
 
-## Learn More
+### Tela de cadastro de usuário
+![cadastro](https://github.com/BertanDev/uno_pizza/assets/72395637/4ea26584-3798-4da9-9d4f-af42c3573685)
 
-To learn more about Next.js, take a look at the following resources:
+### Tela Dashboard
+![pedidos](https://github.com/BertanDev/uno_pizza/assets/72395637/c73262d6-967e-4215-808a-16388702c610)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tela de cadastro de nova categoria
+![categoria](https://github.com/BertanDev/uno_pizza/assets/72395637/2a30c04b-5b53-4beb-83df-6b260caa57c2)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Tela de cadastro de novo produto
+![produto](https://github.com/BertanDev/uno_pizza/assets/72395637/bc5c43d7-5c7e-4bbe-844a-5480d8e07c43)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Modal de detalhes do pedido
+![detalhes-pedido](https://github.com/BertanDev/uno_pizza/assets/72395637/112ba1bd-5f42-4c82-aaa8-9d2214389e03)
